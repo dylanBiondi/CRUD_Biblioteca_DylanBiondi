@@ -1,0 +1,49 @@
+body {
+    background-color:aqua;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navegacion {
+    box-sizing: border-box;
+    padding:20px;
+    background-color: red;
+    height: 75px;
+}
+
+nav {
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.formulario {
+    margin:auto;
+    margin-top:35px;
+    background-color: blue;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+form {
+    gap:5px;
+    padding:25px;
+    display:flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 15px;
+}
+
+button {
+    margin-top:20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: blue;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color:aqua;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navegacion {
+    box-sizing: border-box;
+    padding:20px;
+    background-color: red;
+    height: 75px;
+}
+nav {
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+
+table.cont {
+    margin-top: 25px;
+    width: 100%;
+    border: 1px solid #000;
+}
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
